@@ -1,55 +1,54 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
-public class Canon : MonoBehaviour
+
+public class Cannon : MonoBehaviour
 {
-  [SerializeField] GameObject bulletPrefab;
-  [SerializeField] Slider slider;
-  [SerializeField] GameObject bulletPointer;
-  [SerializeField] private TextMeshProUGUI functionText;
+  [SerializeField] private GameObject bulletPrefab;
+  [SerializeField] private Slider powerSlider;
+  [SerializeField] private GameObject predictionArrow;
+  [SerializeField] private TextMeshProUGUI weightLabel;
+  [SerializeField] private TextMeshProUGUI errorLabel;
+  [SerializeField] private float powerMultiplier = 100f;
 
-  [SerializeField] float bulletSpeed;
-  public float magicNumber = 100f;
+  public Neuron neuron { get; private set; }
+  public Dictionary<float, float> shotResults = new();
 
-  public Neuron neuron;
-  public Dictionary<float, float> shootingData = new();
-  public float neuronWeight => neuron.Weight;
-
-  private void Awake()
-  {
-    neuron = new();
-  }
+  private void Awake() => neuron = new Neuron();
 
   public void Fire()
   {
-    GameObject b = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-    var rb = b.GetComponent<Rigidbody2D>();
-    var bullet = b.GetComponent<Bullet>();
+    float power = powerSlider.value;
+    GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+    Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+    Bullet bulletScript = bullet.GetComponent<Bullet>();
 
-    bullet.Init(this, slider.value, neuron);
+    bulletScript.Initialize(this, power, neuron);
 
-    Vector2 dir = new Vector2(1f, 1f).normalized;
-    rb.linearVelocity = dir * Mathf.Sqrt(slider.value * magicNumber);
-    b.transform.right = rb.linearVelocity;
+    Vector2 direction = new(1f, 1f);
+    rb.linearVelocity = direction.normalized * Mathf.Sqrt(power * powerMultiplier);
+    bullet.transform.right = rb.linearVelocity;
 
-    shootingData[slider.value] = -1f;
-
-    MoveBulletPointerToPredictedPos();
+    shotResults[power] = -1f;
+    UpdatePredictionArrow();
   }
 
-  public void RegisterImpact(float sliderValue, float dist)
+  public void RegisterHit(float power, float distance)
   {
-    shootingData[sliderValue] = dist;
-    float pred = neuron.Compute(sliderValue);
-    float error = pred - dist;
+    shotResults[power] = distance;
+
+    float prediction = neuron.Compute(power);
+    float error = prediction - distance;
     neuron.Adjust(error);
+    errorLabel.text = $"Error = {error:F1}";
   }
 
-  public void MoveBulletPointerToPredictedPos()
+  public void UpdatePredictionArrow()
   {
-    float pred = neuron.Compute(slider.value);
-    functionText.text = $"Y = X * {neuronWeight:F2}";
-    bulletPointer.transform.position = new Vector3(transform.position.x + pred, bulletPointer.transform.position.y);
+    float prediction = neuron.Compute(powerSlider.value);
+    weightLabel.text = $"y = x * {neuron.Weight:F1}";
+    predictionArrow.transform.position = new Vector3(transform.position.x + prediction, predictionArrow.transform.position.y);
   }
 }

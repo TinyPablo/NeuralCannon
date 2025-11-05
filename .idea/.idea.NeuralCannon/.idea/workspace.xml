@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="beb341e2-8a12-49e4-96e8-149c236e9efd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LifeSimSim/Assets/Scripts/RNG.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LifeSimSim/Assets/Scripts/RNG.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Neuron.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Neuron.cs.meta" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/.cache.sqlite" beforeDir="false" afterPath="$USER_HOME$/Documents/Python/ai/weather1-pred/.cache.sqlite" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/create_dataset.py" beforeDir="false" afterPath="$USER_HOME$/Documents/Python/ai/weather1-pred/create_dataset.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/find_max_values.py" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/get_api_data.py" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/main.py" beforeDir="false" afterPath="$USER_HOME$/Documents/Python/ai/weather1-pred/main.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e100_tl0.0026_tm0.0393_vl0.0032_vm0.0427_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e100_tl0.0030_tm0.0425_vl0.0032_vm0.0430_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e101_tl0.0026_tm0.0392_vl0.0033_vm0.0438_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e101_tl0.0031_tm0.0429_vl0.0029_vm0.0409_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e102_tl0.0025_tm0.0387_vl0.0033_vm0.0432_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e102_tl0.0030_tm0.0423_vl0.0033_vm0.0435_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e103_tl0.0026_tm0.0389_vl0.0029_vm0.0421_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e103_tl0.0032_tm0.0444_vl0.0026_vm0.0384_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e104_tl0.0025_tm0.0389_vl0.0030_vm0.0418_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e104_tl0.0031_tm0.0431_vl0.0028_vm0.0395_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e105_tl0.0026_tm0.0395_vl0.0030_vm0.0421_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e105_tl0.0030_tm0.0422_vl0.0031_vm0.0419_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e106_tl0.0026_tm0.0392_vl0.0031_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e106_tl0.0029_tm0.0421_vl0.0029_vm0.0401_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e107_tl0.0026_tm0.0394_vl0.0033_vm0.0440_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e107_tl0.0030_tm0.0424_vl0.0028_vm0.0404_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e108_tl0.0025_tm0.0387_vl0.0029_vm0.0422_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e108_tl0.0030_tm0.0425_vl0.0029_vm0.0406_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e109_tl0.0025_tm0.0387_vl0.0033_vm0.0439_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e109_tl0.0030_tm0.0431_vl0.0029_vm0.0410_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e10_tl0.0053_tm0.0581_vl0.0053_vm0.0595_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e10_tl0.0075_tm0.0694_vl0.0067_vm0.0631_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e110_tl0.0025_tm0.0389_vl0.0029_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e110_tl0.0030_tm0.0430_vl0.0028_vm0.0409_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e111_tl0.0025_tm0.0384_vl0.0033_vm0.0443_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e111_tl0.0029_tm0.0424_vl0.0029_vm0.0411_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e112_tl0.0025_tm0.0382_vl0.0029_vm0.0415_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e112_tl0.0029_tm0.0420_vl0.0028_vm0.0401_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e113_tl0.0025_tm0.0383_vl0.0031_vm0.0438_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e113_tl0.0031_tm0.0433_vl0.0031_vm0.0418_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e114_tl0.0025_tm0.0389_vl0.0028_vm0.0412_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e114_tl0.0028_tm0.0413_vl0.0029_vm0.0403_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e115_tl0.0026_tm0.0391_vl0.0034_vm0.0449_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e115_tl0.0029_tm0.0417_vl0.0029_vm0.0410_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e116_tl0.0025_tm0.0381_vl0.0032_vm0.0431_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e116_tl0.0030_tm0.0429_vl0.0027_vm0.0389_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e117_tl0.0026_tm0.0391_vl0.0029_vm0.0412_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e117_tl0.0029_tm0.0421_vl0.0033_vm0.0426_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e118_tl0.0025_tm0.0386_vl0.0031_vm0.0429_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e118_tl0.0029_tm0.0417_vl0.0028_vm0.0401_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e119_tl0.0025_tm0.0381_vl0.0030_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e119_tl0.0029_tm0.0418_vl0.0028_vm0.0400_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e11_tl0.0053_tm0.0579_vl0.0054_vm0.0600_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e11_tl0.0075_tm0.0693_vl0.0068_vm0.0636_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e120_tl0.0025_tm0.0383_vl0.0031_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e120_tl0.0029_tm0.0423_vl0.0027_vm0.0387_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e121_tl0.0024_tm0.0382_vl0.0030_vm0.0422_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e121_tl0.0029_tm0.0416_vl0.0028_vm0.0401_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e122_tl0.0025_tm0.0382_vl0.0031_vm0.0429_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e122_tl0.0030_tm0.0426_vl0.0029_vm0.0408_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e123_tl0.0025_tm0.0383_vl0.0029_vm0.0417_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e123_tl0.0028_tm0.0418_vl0.0030_vm0.0415_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e124_tl0.0025_tm0.0388_vl0.0034_vm0.0447_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e124_tl0.0027_tm0.0408_vl0.0028_vm0.0400_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e125_tl0.0025_tm0.0387_vl0.0030_vm0.0421_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e125_tl0.0028_tm0.0412_vl0.0030_vm0.0424_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e126_tl0.0024_tm0.0380_vl0.0028_vm0.0407_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e126_tl0.0028_tm0.0415_vl0.0028_vm0.0407_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e127_tl0.0024_tm0.0383_vl0.0027_vm0.0407_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e127_tl0.0029_tm0.0417_vl0.0030_vm0.0418_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e128_tl0.0025_tm0.0383_vl0.0030_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e128_tl0.0029_tm0.0421_vl0.0031_vm0.0419_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e129_tl0.0024_tm0.0378_vl0.0032_vm0.0430_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e129_tl0.0029_tm0.0423_vl0.0032_vm0.0441_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e12_tl0.0051_tm0.0569_vl0.0049_vm0.0554_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e12_tl0.0072_tm0.0681_vl0.0074_vm0.0684_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e130_tl0.0025_tm0.0387_vl0.0029_vm0.0420_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e130_tl0.0027_tm0.0408_vl0.0029_vm0.0412_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e131_tl0.0024_tm0.0381_vl0.0029_vm0.0419_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e131_tl0.0028_tm0.0408_vl0.0028_vm0.0405_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e132_tl0.0024_tm0.0383_vl0.0031_vm0.0429_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e132_tl0.0028_tm0.0412_vl0.0029_vm0.0410_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e133_tl0.0024_tm0.0379_vl0.0029_vm0.0424_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e133_tl0.0027_tm0.0408_vl0.0029_vm0.0418_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e134_tl0.0025_tm0.0386_vl0.0029_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e134_tl0.0028_tm0.0409_vl0.0030_vm0.0420_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e135_tl0.0024_tm0.0381_vl0.0030_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e135_tl0.0027_tm0.0408_vl0.0034_vm0.0458_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e136_tl0.0024_tm0.0381_vl0.0032_vm0.0439_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e136_tl0.0028_tm0.0415_vl0.0034_vm0.0449_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e137_tl0.0024_tm0.0381_vl0.0029_vm0.0419_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e137_tl0.0027_tm0.0411_vl0.0029_vm0.0415_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e138_tl0.0024_tm0.0380_vl0.0029_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e138_tl0.0027_tm0.0405_vl0.0032_vm0.0430_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e139_tl0.0025_tm0.0382_vl0.0032_vm0.0441_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e139_tl0.0027_tm0.0410_vl0.0031_vm0.0430_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e13_tl0.0049_tm0.0557_vl0.0054_vm0.0604_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e13_tl0.0070_tm0.0672_vl0.0068_vm0.0628_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e140_tl0.0024_tm0.0377_vl0.0032_vm0.0442_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e140_tl0.0028_tm0.0410_vl0.0027_vm0.0401_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e141_tl0.0024_tm0.0374_vl0.0032_vm0.0442_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e141_tl0.0026_tm0.0398_vl0.0033_vm0.0443_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e142_tl0.0024_tm0.0385_vl0.0029_vm0.0418_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e142_tl0.0028_tm0.0416_vl0.0028_vm0.0399_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e143_tl0.0024_tm0.0375_vl0.0030_vm0.0421_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e143_tl0.0028_tm0.0414_vl0.0031_vm0.0422_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e144_tl0.0024_tm0.0378_vl0.0029_vm0.0418_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e144_tl0.0026_tm0.0402_vl0.0032_vm0.0442_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e145_tl0.0024_tm0.0379_vl0.0030_vm0.0425_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e145_tl0.0027_tm0.0407_vl0.0029_vm0.0415_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e146_tl0.0025_tm0.0390_vl0.0031_vm0.0433_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e146_tl0.0027_tm0.0411_vl0.0032_vm0.0436_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e147_tl0.0024_tm0.0378_vl0.0030_vm0.0427_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e147_tl0.0027_tm0.0403_vl0.0029_vm0.0412_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e148_tl0.0024_tm0.0377_vl0.0029_vm0.0419_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e148_tl0.0028_tm0.0418_vl0.0030_vm0.0422_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e149_tl0.0025_tm0.0384_vl0.0031_vm0.0431_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e149_tl0.0027_tm0.0408_vl0.0026_vm0.0394_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e14_tl0.0048_tm0.0552_vl0.0054_vm0.0595_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e14_tl0.0070_tm0.0671_vl0.0066_vm0.0644_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e150_tl0.0023_tm0.0372_vl0.0032_vm0.0436_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e150_tl0.0027_tm0.0408_vl0.0029_vm0.0406_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e151_tl0.0023_tm0.0370_vl0.0033_vm0.0451_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e151_tl0.0027_tm0.0411_vl0.0029_vm0.0417_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e152_tl0.0024_tm0.0377_vl0.0030_vm0.0433_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e152_tl0.0027_tm0.0406_vl0.0029_vm0.0411_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e153_tl0.0023_tm0.0374_vl0.0030_vm0.0432_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e153_tl0.0027_tm0.0406_vl0.0029_vm0.0405_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e154_tl0.0023_tm0.0372_vl0.0032_vm0.0444_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e154_tl0.0027_tm0.0403_vl0.0028_vm0.0408_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e155_tl0.0023_tm0.0375_vl0.0031_vm0.0427_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e155_tl0.0026_tm0.0399_vl0.0028_vm0.0405_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e156_tl0.0024_tm0.0378_vl0.0031_vm0.0430_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e156_tl0.0026_tm0.0402_vl0.0027_vm0.0391_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e157_tl0.0023_tm0.0372_vl0.0029_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e157_tl0.0027_tm0.0400_vl0.0029_vm0.0412_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e158_tl0.0023_tm0.0365_vl0.0030_vm0.0437_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e158_tl0.0028_tm0.0413_vl0.0030_vm0.0427_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e159_tl0.0023_tm0.0370_vl0.0031_vm0.0433_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e159_tl0.0026_tm0.0397_vl0.0027_vm0.0394_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e15_tl0.0047_tm0.0546_vl0.0047_vm0.0563_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e15_tl0.0069_tm0.0665_vl0.0065_vm0.0625_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e160_tl0.0022_tm0.0365_vl0.0035_vm0.0466_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e160_tl0.0026_tm0.0394_vl0.0031_vm0.0427_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e161_tl0.0023_tm0.0372_vl0.0030_vm0.0424_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e161_tl0.0027_tm0.0410_vl0.0030_vm0.0425_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e162_tl0.0023_tm0.0371_vl0.0029_vm0.0418_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e162_tl0.0027_tm0.0407_vl0.0033_vm0.0438_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e163_tl0.0022_tm0.0366_vl0.0030_vm0.0425_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e163_tl0.0027_tm0.0403_vl0.0028_vm0.0407_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e164_tl0.0022_tm0.0364_vl0.0029_vm0.0416_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e164_tl0.0025_tm0.0393_vl0.0030_vm0.0424_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e165_tl0.0023_tm0.0372_vl0.0031_vm0.0428_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e165_tl0.0026_tm0.0400_vl0.0028_vm0.0414_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e166_tl0.0022_tm0.0366_vl0.0029_vm0.0411_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e166_tl0.0026_tm0.0403_vl0.0028_vm0.0403_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e167_tl0.0023_tm0.0371_vl0.0030_vm0.0420_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e167_tl0.0025_tm0.0390_vl0.0029_vm0.0417_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e168_tl0.0023_tm0.0368_vl0.0029_vm0.0420_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e168_tl0.0026_tm0.0406_vl0.0034_vm0.0439_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e169_tl0.0022_tm0.0368_vl0.0029_vm0.0422_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e169_tl0.0027_tm0.0410_vl0.0031_vm0.0443_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e16_tl0.0044_tm0.0527_vl0.0045_vm0.0547_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e16_tl0.0069_tm0.0670_vl0.0066_vm0.0645_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e170_tl0.0023_tm0.0368_vl0.0030_vm0.0430_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e170_tl0.0025_tm0.0389_vl0.0033_vm0.0439_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e171_tl0.0023_tm0.0366_vl0.0032_vm0.0444_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e171_tl0.0026_tm0.0401_vl0.0027_vm0.0398_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e172_tl0.0022_tm0.0365_vl0.0032_vm0.0440_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e172_tl0.0026_tm0.0399_vl0.0029_vm0.0415_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e173_tl0.0022_tm0.0364_vl0.0031_vm0.0429_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e173_tl0.0025_tm0.0390_vl0.0030_vm0.0431_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e174_tl0.0022_tm0.0360_vl0.0031_vm0.0439_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e174_tl0.0025_tm0.0393_vl0.0029_vm0.0410_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e175_tl0.0022_tm0.0366_vl0.0036_vm0.0472_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e175_tl0.0025_tm0.0393_vl0.0032_vm0.0439_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e176_tl0.0024_tm0.0381_vl0.0032_vm0.0437_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e176_tl0.0025_tm0.0394_vl0.0030_vm0.0423_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e177_tl0.0023_tm0.0371_vl0.0030_vm0.0427_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e177_tl0.0025_tm0.0394_vl0.0030_vm0.0420_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e178_tl0.0022_tm0.0367_vl0.0032_vm0.0454_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e179_tl0.0021_tm0.0357_vl0.0031_vm0.0430_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e17_tl0.0044_tm0.0526_vl0.0040_vm0.0506_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e17_tl0.0068_tm0.0657_vl0.0067_vm0.0656_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e180_tl0.0022_tm0.0360_vl0.0032_vm0.0443_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e181_tl0.0022_tm0.0366_vl0.0033_vm0.0450_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e182_tl0.0022_tm0.0364_vl0.0031_vm0.0436_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e183_tl0.0021_tm0.0357_vl0.0031_vm0.0432_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e184_tl0.0022_tm0.0364_vl0.0033_vm0.0458_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e185_tl0.0022_tm0.0364_vl0.0032_vm0.0442_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e186_tl0.0021_tm0.0360_vl0.0030_vm0.0429_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e187_tl0.0021_tm0.0356_vl0.0031_vm0.0434_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e188_tl0.0021_tm0.0357_vl0.0032_vm0.0442_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e189_tl0.0021_tm0.0353_vl0.0031_vm0.0433_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e18_tl0.0040_tm0.0500_vl0.0040_vm0.0499_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e18_tl0.0064_tm0.0642_vl0.0057_vm0.0593_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e190_tl0.0021_tm0.0355_vl0.0030_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e191_tl0.0022_tm0.0360_vl0.0030_vm0.0415_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e192_tl0.0021_tm0.0356_vl0.0028_vm0.0412_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e193_tl0.0021_tm0.0357_vl0.0032_vm0.0442_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e194_tl0.0021_tm0.0360_vl0.0033_vm0.0451_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e195_tl0.0022_tm0.0360_vl0.0031_vm0.0424_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e196_tl0.0021_tm0.0349_vl0.0028_vm0.0415_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e197_tl0.0020_tm0.0348_vl0.0030_vm0.0430_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e198_tl0.0021_tm0.0356_vl0.0030_vm0.0427_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e199_tl0.0021_tm0.0356_vl0.0031_vm0.0435_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e19_tl0.0039_tm0.0494_vl0.0041_vm0.0506_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e19_tl0.0062_tm0.0635_vl0.0066_vm0.0646_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e1_tl0.0244_tm0.1138_vl0.0075_vm0.0671_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e1_tl0.0762_tm0.1931_vl0.0082_vm0.0698_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e200_tl0.0021_tm0.0356_vl0.0030_vm0.0424_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e201_tl0.0021_tm0.0354_vl0.0032_vm0.0433_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e202_tl0.0021_tm0.0356_vl0.0028_vm0.0402_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e203_tl0.0021_tm0.0360_vl0.0030_vm0.0414_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e204_tl0.0021_tm0.0358_vl0.0031_vm0.0433_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e205_tl0.0020_tm0.0350_vl0.0031_vm0.0438_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e206_tl0.0021_tm0.0356_vl0.0030_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e207_tl0.0020_tm0.0352_vl0.0030_vm0.0422_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e208_tl0.0021_tm0.0352_vl0.0031_vm0.0445_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e209_tl0.0021_tm0.0356_vl0.0031_vm0.0434_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e20_tl0.0038_tm0.0488_vl0.0036_vm0.0477_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e20_tl0.0060_tm0.0622_vl0.0056_vm0.0600_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e210_tl0.0021_tm0.0352_vl0.0035_vm0.0460_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e211_tl0.0020_tm0.0347_vl0.0031_vm0.0434_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e212_tl0.0020_tm0.0344_vl0.0032_vm0.0441_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e213_tl0.0020_tm0.0344_vl0.0032_vm0.0447_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e214_tl0.0020_tm0.0352_vl0.0034_vm0.0461_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e215_tl0.0020_tm0.0348_vl0.0030_vm0.0428_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e216_tl0.0019_tm0.0341_vl0.0031_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e217_tl0.0020_tm0.0344_vl0.0029_vm0.0414_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e218_tl0.0019_tm0.0342_vl0.0030_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e219_tl0.0019_tm0.0343_vl0.0032_vm0.0443_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e21_tl0.0037_tm0.0477_vl0.0037_vm0.0472_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e21_tl0.0060_tm0.0616_vl0.0053_vm0.0578_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e220_tl0.0019_tm0.0343_vl0.0032_vm0.0444_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e221_tl0.0020_tm0.0345_vl0.0032_vm0.0446_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e222_tl0.0020_tm0.0346_vl0.0027_vm0.0394_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e223_tl0.0019_tm0.0341_vl0.0029_vm0.0409_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e224_tl0.0019_tm0.0338_vl0.0030_vm0.0429_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e225_tl0.0019_tm0.0342_vl0.0032_vm0.0439_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e226_tl0.0019_tm0.0334_vl0.0032_vm0.0440_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e227_tl0.0019_tm0.0336_vl0.0033_vm0.0451_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e228_tl0.0019_tm0.0344_vl0.0033_vm0.0451_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e229_tl0.0019_tm0.0340_vl0.0029_vm0.0413_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e22_tl0.0035_tm0.0466_vl0.0037_vm0.0458_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e22_tl0.0061_tm0.0624_vl0.0057_vm0.0616_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e230_tl0.0019_tm0.0338_vl0.0031_vm0.0427_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e231_tl0.0019_tm0.0336_vl0.0030_vm0.0413_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e232_tl0.0018_tm0.0333_vl0.0034_vm0.0457_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e233_tl0.0019_tm0.0339_vl0.0030_vm0.0414_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e234_tl0.0019_tm0.0335_vl0.0031_vm0.0435_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e235_tl0.0019_tm0.0335_vl0.0029_vm0.0419_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e236_tl0.0018_tm0.0330_vl0.0031_vm0.0429_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e237_tl0.0019_tm0.0344_vl0.0031_vm0.0428_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e238_tl0.0018_tm0.0335_vl0.0028_vm0.0406_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e239_tl0.0018_tm0.0331_vl0.0032_vm0.0436_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e23_tl0.0037_tm0.0474_vl0.0039_vm0.0475_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e23_tl0.0056_tm0.0595_vl0.0049_vm0.0565_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e240_tl0.0018_tm0.0331_vl0.0032_vm0.0440_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e241_tl0.0018_tm0.0331_vl0.0031_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e242_tl0.0018_tm0.0330_vl0.0030_vm0.0419_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e243_tl0.0018_tm0.0328_vl0.0033_vm0.0445_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e244_tl0.0018_tm0.0327_vl0.0029_vm0.0419_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e245_tl0.0018_tm0.0330_vl0.0030_vm0.0422_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e246_tl0.0018_tm0.0328_vl0.0030_vm0.0415_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e247_tl0.0017_tm0.0319_vl0.0033_vm0.0446_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e248_tl0.0017_tm0.0321_vl0.0029_vm0.0404_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e249_tl0.0017_tm0.0324_vl0.0029_vm0.0401_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e24_tl0.0037_tm0.0473_vl0.0036_vm0.0480_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e24_tl0.0054_tm0.0579_vl0.0051_vm0.0574_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e250_tl0.0017_tm0.0324_vl0.0030_vm0.0416_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e251_tl0.0017_tm0.0321_vl0.0028_vm0.0404_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e252_tl0.0017_tm0.0323_vl0.0030_vm0.0427_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e253_tl0.0017_tm0.0322_vl0.0031_vm0.0420_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e254_tl0.0017_tm0.0324_vl0.0034_vm0.0458_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e255_tl0.0017_tm0.0319_vl0.0027_vm0.0394_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e256_tl0.0017_tm0.0322_vl0.0031_vm0.0434_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e257_tl0.0016_tm0.0315_vl0.0029_vm0.0413_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e258_tl0.0016_tm0.0312_vl0.0030_vm0.0416_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e259_tl0.0016_tm0.0315_vl0.0031_vm0.0428_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e25_tl0.0034_tm0.0456_vl0.0029_vm0.0415_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e25_tl0.0053_tm0.0581_vl0.0046_vm0.0554_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e260_tl0.0017_tm0.0324_vl0.0030_vm0.0413_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e261_tl0.0016_tm0.0315_vl0.0032_vm0.0432_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e262_tl0.0016_tm0.0315_vl0.0028_vm0.0401_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e263_tl0.0016_tm0.0316_vl0.0029_vm0.0402_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e264_tl0.0016_tm0.0311_vl0.0033_vm0.0446_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e265_tl0.0016_tm0.0314_vl0.0029_vm0.0408_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e266_tl0.0016_tm0.0310_vl0.0032_vm0.0422_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e267_tl0.0016_tm0.0307_vl0.0028_vm0.0396_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e268_tl0.0016_tm0.0308_vl0.0032_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e269_tl0.0016_tm0.0308_vl0.0030_vm0.0412_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e26_tl0.0034_tm0.0456_vl0.0035_vm0.0437_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e26_tl0.0051_tm0.0566_vl0.0047_vm0.0573_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e270_tl0.0015_tm0.0306_vl0.0031_vm0.0424_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e271_tl0.0016_tm0.0312_vl0.0028_vm0.0395_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e272_tl0.0015_tm0.0301_vl0.0028_vm0.0402_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e273_tl0.0015_tm0.0301_vl0.0028_vm0.0393_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e274_tl0.0015_tm0.0301_vl0.0032_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e275_tl0.0015_tm0.0304_vl0.0029_vm0.0398_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e276_tl0.0015_tm0.0307_vl0.0029_vm0.0406_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e277_tl0.0015_tm0.0305_vl0.0030_vm0.0409_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e278_tl0.0015_tm0.0300_vl0.0030_vm0.0415_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e279_tl0.0015_tm0.0301_vl0.0029_vm0.0405_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e27_tl0.0032_tm0.0442_vl0.0030_vm0.0413_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e27_tl0.0051_tm0.0569_vl0.0044_vm0.0554_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e280_tl0.0015_tm0.0297_vl0.0031_vm0.0421_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e281_tl0.0015_tm0.0298_vl0.0032_vm0.0429_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e282_tl0.0015_tm0.0296_vl0.0030_vm0.0414_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e283_tl0.0014_tm0.0291_vl0.0032_vm0.0429_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e284_tl0.0014_tm0.0294_vl0.0033_vm0.0439_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e285_tl0.0014_tm0.0291_vl0.0030_vm0.0413_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e28_tl0.0031_tm0.0437_vl0.0028_vm0.0401_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e28_tl0.0049_tm0.0555_vl0.0040_vm0.0511_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e29_tl0.0032_tm0.0438_vl0.0039_vm0.0481_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e29_tl0.0050_tm0.0558_vl0.0039_vm0.0511_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e2_tl0.0076_tm0.0696_vl0.0068_vm0.0643_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e2_tl0.0090_tm0.0761_vl0.0076_vm0.0661_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e30_tl0.0032_tm0.0438_vl0.0031_vm0.0422_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e30_tl0.0046_tm0.0540_vl0.0038_vm0.0493_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e31_tl0.0031_tm0.0430_vl0.0032_vm0.0433_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e31_tl0.0050_tm0.0563_vl0.0036_vm0.0485_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e32_tl0.0030_tm0.0427_vl0.0028_vm0.0399_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e32_tl0.0046_tm0.0534_vl0.0038_vm0.0501_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e33_tl0.0030_tm0.0425_vl0.0027_vm0.0388_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e33_tl0.0044_tm0.0526_vl0.0040_vm0.0502_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e34_tl0.0029_tm0.0413_vl0.0029_vm0.0401_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e34_tl0.0044_tm0.0519_vl0.0035_vm0.0480_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e35_tl0.0033_tm0.0447_vl0.0039_vm0.0474_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e35_tl0.0044_tm0.0523_vl0.0037_vm0.0489_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e36_tl0.0030_tm0.0430_vl0.0034_vm0.0450_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e36_tl0.0043_tm0.0520_vl0.0040_vm0.0506_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e37_tl0.0030_tm0.0423_vl0.0029_vm0.0409_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e37_tl0.0044_tm0.0528_vl0.0034_vm0.0469_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e38_tl0.0028_tm0.0413_vl0.0030_vm0.0416_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e38_tl0.0041_tm0.0505_vl0.0037_vm0.0488_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e39_tl0.0028_tm0.0414_vl0.0028_vm0.0395_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e39_tl0.0042_tm0.0514_vl0.0040_vm0.0495_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e3_tl0.0069_tm0.0665_vl0.0069_vm0.0623_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e3_tl0.0085_tm0.0735_vl0.0071_vm0.0649_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e40_tl0.0028_tm0.0407_vl0.0031_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e40_tl0.0039_tm0.0493_vl0.0033_vm0.0454_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e41_tl0.0028_tm0.0410_vl0.0028_vm0.0401_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e41_tl0.0039_tm0.0495_vl0.0034_vm0.0463_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e42_tl0.0028_tm0.0405_vl0.0029_vm0.0414_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e42_tl0.0040_tm0.0501_vl0.0036_vm0.0469_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e43_tl0.0029_tm0.0419_vl0.0030_vm0.0414_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e43_tl0.0039_tm0.0490_vl0.0041_vm0.0511_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e44_tl0.0030_tm0.0421_vl0.0030_vm0.0420_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e44_tl0.0042_tm0.0510_vl0.0033_vm0.0454_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e45_tl0.0028_tm0.0410_vl0.0029_vm0.0413_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e45_tl0.0040_tm0.0496_vl0.0035_vm0.0467_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e46_tl0.0029_tm0.0415_vl0.0033_vm0.0439_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e46_tl0.0038_tm0.0487_vl0.0032_vm0.0440_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e47_tl0.0028_tm0.0410_vl0.0029_vm0.0410_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e47_tl0.0037_tm0.0482_vl0.0031_vm0.0428_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e48_tl0.0028_tm0.0409_vl0.0028_vm0.0399_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e48_tl0.0038_tm0.0482_vl0.0032_vm0.0440_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e49_tl0.0031_tm0.0435_vl0.0034_vm0.0441_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e49_tl0.0036_tm0.0469_vl0.0032_vm0.0434_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e4_tl0.0066_tm0.0651_vl0.0064_vm0.0618_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e4_tl0.0082_tm0.0726_vl0.0073_vm0.0666_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e50_tl0.0028_tm0.0410_vl0.0027_vm0.0399_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e50_tl0.0036_tm0.0467_vl0.0033_vm0.0442_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e51_tl0.0028_tm0.0411_vl0.0028_vm0.0399_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e51_tl0.0035_tm0.0463_vl0.0029_vm0.0410_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e52_tl0.0027_tm0.0404_vl0.0029_vm0.0402_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e52_tl0.0038_tm0.0488_vl0.0031_vm0.0423_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e53_tl0.0030_tm0.0425_vl0.0032_vm0.0436_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e53_tl0.0036_tm0.0463_vl0.0033_vm0.0432_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e54_tl0.0029_tm0.0416_vl0.0039_vm0.0493_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e54_tl0.0035_tm0.0465_vl0.0032_vm0.0428_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e55_tl0.0028_tm0.0407_vl0.0028_vm0.0396_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e55_tl0.0037_tm0.0478_vl0.0029_vm0.0401_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e56_tl0.0028_tm0.0407_vl0.0028_vm0.0393_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e56_tl0.0035_tm0.0461_vl0.0030_vm0.0414_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e57_tl0.0028_tm0.0408_vl0.0028_vm0.0400_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e57_tl0.0034_tm0.0458_vl0.0034_vm0.0442_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e58_tl0.0027_tm0.0399_vl0.0027_vm0.0385_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e58_tl0.0034_tm0.0459_vl0.0030_vm0.0414_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e59_tl0.0027_tm0.0398_vl0.0031_vm0.0422_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e59_tl0.0035_tm0.0461_vl0.0028_vm0.0397_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e5_tl0.0063_tm0.0637_vl0.0063_vm0.0644_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e5_tl0.0081_tm0.0718_vl0.0070_vm0.0637_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e60_tl0.0027_tm0.0405_vl0.0032_vm0.0427_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e60_tl0.0036_tm0.0473_vl0.0029_vm0.0406_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e61_tl0.0027_tm0.0404_vl0.0031_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e61_tl0.0035_tm0.0463_vl0.0027_vm0.0387_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e62_tl0.0027_tm0.0399_vl0.0030_vm0.0407_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e62_tl0.0034_tm0.0451_vl0.0033_vm0.0439_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e63_tl0.0028_tm0.0409_vl0.0029_vm0.0409_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e63_tl0.0034_tm0.0459_vl0.0028_vm0.0398_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e64_tl0.0027_tm0.0403_vl0.0030_vm0.0418_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e64_tl0.0036_tm0.0470_vl0.0031_vm0.0417_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e65_tl0.0027_tm0.0404_vl0.0029_vm0.0418_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e65_tl0.0034_tm0.0459_vl0.0029_vm0.0399_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e66_tl0.0027_tm0.0401_vl0.0030_vm0.0414_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e66_tl0.0033_tm0.0450_vl0.0032_vm0.0421_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e67_tl0.0028_tm0.0408_vl0.0033_vm0.0440_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e67_tl0.0032_tm0.0444_vl0.0031_vm0.0414_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e68_tl0.0026_tm0.0394_vl0.0027_vm0.0395_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e68_tl0.0033_tm0.0447_vl0.0029_vm0.0401_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e69_tl0.0027_tm0.0398_vl0.0029_vm0.0408_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e69_tl0.0033_tm0.0450_vl0.0031_vm0.0420_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e6_tl0.0061_tm0.0626_vl0.0062_vm0.0605_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e6_tl0.0080_tm0.0717_vl0.0071_vm0.0637_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e70_tl0.0027_tm0.0398_vl0.0029_vm0.0410_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e70_tl0.0033_tm0.0448_vl0.0029_vm0.0400_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e71_tl0.0029_tm0.0416_vl0.0034_vm0.0450_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e71_tl0.0032_tm0.0439_vl0.0028_vm0.0396_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e72_tl0.0029_tm0.0422_vl0.0029_vm0.0408_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e72_tl0.0033_tm0.0450_vl0.0028_vm0.0396_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e73_tl0.0026_tm0.0395_vl0.0029_vm0.0400_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e73_tl0.0031_tm0.0435_vl0.0030_vm0.0412_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e74_tl0.0027_tm0.0399_vl0.0029_vm0.0408_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e74_tl0.0032_tm0.0443_vl0.0031_vm0.0421_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e75_tl0.0027_tm0.0397_vl0.0030_vm0.0410_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e75_tl0.0034_tm0.0458_vl0.0026_vm0.0381_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e76_tl0.0026_tm0.0395_vl0.0029_vm0.0409_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e76_tl0.0032_tm0.0438_vl0.0028_vm0.0385_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e77_tl0.0026_tm0.0390_vl0.0029_vm0.0414_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e77_tl0.0031_tm0.0437_vl0.0028_vm0.0392_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e78_tl0.0026_tm0.0397_vl0.0029_vm0.0402_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e78_tl0.0032_tm0.0445_vl0.0029_vm0.0405_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e79_tl0.0027_tm0.0395_vl0.0031_vm0.0426_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e79_tl0.0033_tm0.0445_vl0.0029_vm0.0405_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e7_tl0.0059_tm0.0612_vl0.0061_vm0.0632_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e7_tl0.0078_tm0.0702_vl0.0078_vm0.0690_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e80_tl0.0026_tm0.0396_vl0.0029_vm0.0411_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e80_tl0.0031_tm0.0431_vl0.0027_vm0.0392_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e81_tl0.0026_tm0.0393_vl0.0041_vm0.0496_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e81_tl0.0030_tm0.0431_vl0.0033_vm0.0433_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e82_tl0.0028_tm0.0411_vl0.0031_vm0.0415_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e82_tl0.0032_tm0.0439_vl0.0031_vm0.0421_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e83_tl0.0027_tm0.0400_vl0.0034_vm0.0447_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e83_tl0.0031_tm0.0435_vl0.0030_vm0.0407_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e84_tl0.0027_tm0.0401_vl0.0029_vm0.0414_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e84_tl0.0031_tm0.0433_vl0.0030_vm0.0404_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e85_tl0.0027_tm0.0402_vl0.0032_vm0.0430_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e85_tl0.0032_tm0.0443_vl0.0028_vm0.0397_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e86_tl0.0027_tm0.0399_vl0.0031_vm0.0424_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e86_tl0.0031_tm0.0433_vl0.0030_vm0.0407_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e87_tl0.0026_tm0.0391_vl0.0028_vm0.0400_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e87_tl0.0030_tm0.0427_vl0.0028_vm0.0391_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e88_tl0.0026_tm0.0391_vl0.0031_vm0.0412_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e88_tl0.0031_tm0.0437_vl0.0026_vm0.0385_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e89_tl0.0026_tm0.0391_vl0.0031_vm0.0419_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e89_tl0.0030_tm0.0434_vl0.0026_vm0.0388_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e8_tl0.0058_tm0.0609_vl0.0055_vm0.0587_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e8_tl0.0077_tm0.0704_vl0.0074_vm0.0671_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e90_tl0.0026_tm0.0395_vl0.0029_vm0.0411_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e90_tl0.0030_tm0.0428_vl0.0031_vm0.0414_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e91_tl0.0027_tm0.0398_vl0.0030_vm0.0423_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e91_tl0.0030_tm0.0428_vl0.0028_vm0.0400_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e92_tl0.0026_tm0.0393_vl0.0029_vm0.0407_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e92_tl0.0031_tm0.0430_vl0.0033_vm0.0430_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e93_tl0.0026_tm0.0395_vl0.0031_vm0.0415_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e93_tl0.0032_tm0.0441_vl0.0033_vm0.0437_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e94_tl0.0026_tm0.0395_vl0.0030_vm0.0415_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e94_tl0.0030_tm0.0426_vl0.0030_vm0.0412_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e95_tl0.0026_tm0.0390_vl0.0031_vm0.0418_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e95_tl0.0030_tm0.0429_vl0.0031_vm0.0421_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e96_tl0.0026_tm0.0391_vl0.0031_vm0.0428_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e96_tl0.0031_tm0.0432_vl0.0028_vm0.0392_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e97_tl0.0027_tm0.0401_vl0.0032_vm0.0443_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e97_tl0.0030_tm0.0425_vl0.0030_vm0.0410_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e98_tl0.0026_tm0.0391_vl0.0029_vm0.0427_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e98_tl0.0031_tm0.0429_vl0.0029_vm0.0409_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e99_tl0.0025_tm0.0388_vl0.0031_vm0.0425_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e99_tl0.0029_tm0.0421_vl0.0030_vm0.0405_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e9_tl0.0057_tm0.0605_vl0.0054_vm0.0592_p9041.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/models/model_e9_tl0.0075_tm0.0691_vl0.0070_vm0.0649_p35553.keras" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/normalized_weather_data.csv" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/prepare_dataset.py" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/process_csv.py" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/test.py" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/train.py" beforeDir="false" afterPath="$USER_HOME$/Documents/Python/ai/weather1-pred/train.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/utils.py" beforeDir="false" afterPath="$USER_HOME$/Documents/Python/ai/weather1-pred/utils.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/weather_data.csv" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/weather_dataset.npz" beforeDir="false" afterPath="$USER_HOME$/Documents/Python/ai/weather1-pred/weather_dataset.npz" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/Python/ai/weather1-pred/year_dataset.npz" beforeDir="false" />
+      <change beforePath="$USER_HOME$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Neuron.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Neuron.cs.meta" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="352Xs7rEl2AjrlCBv8AIoHjVDMX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.1.9f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.1.9f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Device" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beb341e2-8a12-49e4-96e8-149c236e9efd" name="Changes" comment="" />
+      <created>1762309344759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762309344759</updated>
+      <workItem from="1762309346244" duration="252000" />
+      <workItem from="1762309623468" duration="3239000" />
+      <workItem from="1762313160891" duration="2399000" />
+      <workItem from="1762315863895" duration="2252000" />
+      <workItem from="1762355991161" duration="303000" />
+      <workItem from="1762356770363" duration="11910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="works backupp" />
+    <option name="LAST_COMMIT_MESSAGE" value="works backupp" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -497,6 +497,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GraphDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Neuron.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Neuron.cs.meta" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -596,7 +597,7 @@
       <workItem from="1762313160891" duration="2399000" />
       <workItem from="1762315863895" duration="2252000" />
       <workItem from="1762355991161" duration="303000" />
-      <workItem from="1762356770363" duration="11910000" />
+      <workItem from="1762356770363" duration="18592000" />
     </task>
     <servers />
   </component>

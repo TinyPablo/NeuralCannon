@@ -13,11 +13,12 @@ public class Neuron
 
   public float Compute(float input) => input * _weight;
 
-  public void Adjust(float error, float learningRate = 0.01f)
+  public void Adjust(float error, float learningRate = 0.1f)
   {
     if (error > 0)
       _weight -= learningRate;
     else if (error < 0)
       _weight += learningRate;
+      
   }
 }

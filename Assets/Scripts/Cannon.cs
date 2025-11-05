@@ -1,18 +1,20 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class Canon : MonoBehaviour
 {
   [SerializeField] GameObject bulletPrefab;
   [SerializeField] Slider slider;
   [SerializeField] GameObject bulletPointer;
+  [SerializeField] private TextMeshProUGUI functionText;
 
   [SerializeField] float bulletSpeed;
   public float magicNumber = 100f;
 
   public Neuron neuron;
   public Dictionary<float, float> shootingData = new();
+  public float neuronWeight => neuron.Weight;
 
   private void Awake()
   {
@@ -31,7 +33,7 @@ public class Canon : MonoBehaviour
     rb.linearVelocity = dir * Mathf.Sqrt(slider.value * magicNumber);
     b.transform.right = rb.linearVelocity;
 
-    shootingData[slider.value] = 0f;
+    shootingData[slider.value] = -1f;
 
     MoveBulletPointerToPredictedPos();
   }
@@ -47,6 +49,7 @@ public class Canon : MonoBehaviour
   public void MoveBulletPointerToPredictedPos()
   {
     float pred = neuron.Compute(slider.value);
+    functionText.text = $"Y = X * {neuronWeight:F2}";
     bulletPointer.transform.position = new Vector3(transform.position.x + pred, bulletPointer.transform.position.y);
   }
 }

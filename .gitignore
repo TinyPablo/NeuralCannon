@@ -231,3 +231,23 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+[Bb]uild*/
+[Bb]uilds*/
+Library/
+Logs/
+Temp/
+Obj/
+UserSettings/
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.app
+*.exe
+*.apk
+*.aab
+*.pidb
